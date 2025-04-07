@@ -6,9 +6,9 @@ slug = "electric-range-project"
 entrypoint = "hello.py"    
 
 [branding]
-name = "Preswald Project"
+name = "Electric Vehicle Project"
 logo = "images/logo.png"
-favicon = "images/electic_car.png"
+favicon = "images/electric_car.png"
 primaryColor = "#F89613"
 
 [data.evpd_csv]
