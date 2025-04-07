@@ -1,25 +1,19 @@
 [project]
-title = "Preswald Project"
+title = "Electric Range Project"
 version = "0.1.0"
 port = 8501
-slug = "preswald-project"  
+slug = "electric-range-project"  
 entrypoint = "hello.py"    
 
 [branding]
 name = "Preswald Project"
 logo = "images/logo.png"
-favicon = "images/favicon.ico"
+favicon = "images/electic_car.png"
 primaryColor = "#F89613"
-
 
 [data.evpd_csv]
 type = "csv"
 path = "data/evpd.csv"
-
-
-[data.sample_csv]
-type = "csv"
-path = "data/sample.csv"
 
 [logging]
 level = "INFO"  
