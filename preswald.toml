@@ -14,7 +14,7 @@ primaryColor = "#F89613"
 
 [data.evpd_csv]
 type = "csv"
-path = "data/evpd-small.csv"
+path = "data/evpd.csv"
 
 
 [data.sample_csv]

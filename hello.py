@@ -3,10 +3,8 @@ import pandas as pd
 import plotly.express as px
 import logging
 
-text("# Welcome to Preswald!")
-text("This is your first app. :tada:")
-
-
+text("# Welcome to Electric Vehicle Population Data!")
+text("This is an App that filters Electric Vehicles based on their range per charge in miles")
 
 # Set up logger
 logger = logging.getLogger(__name__)
@@ -41,7 +39,7 @@ table(filtered_df, title = "Filtered Data")
 
 threshold = slider("Threshold", min_val=0, max_val=100, default=50)
 dynamic_df = df[df["Electric Range"] > threshold]
-text("## Dynamic Data View (Data with 'value' > Threshold)")
+text("## Vehicles with Electric Range > 'threshold' miles")
 table(dynamic_df, title="Dynamic Data View")
 
 # Create a scatter plot
